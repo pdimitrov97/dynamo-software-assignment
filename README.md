@@ -13,4 +13,4 @@ cd ./crypto-portfolio-tracker-backend/DynamoSoftware.Assignment.WebApi
 dotnet run
 ```
 
-Test file: **TestPortfolioData**
+Test file: **TestPortfolioData.txt**
