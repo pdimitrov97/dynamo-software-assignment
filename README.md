@@ -14,3 +14,5 @@ dotnet run
 ```
 
 Test file: **TestPortfolioData.txt**
+
+Log files with user actions are located in the **Logs** folder of the backend output folder.
