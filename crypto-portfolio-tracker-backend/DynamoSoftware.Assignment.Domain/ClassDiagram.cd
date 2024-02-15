@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DynamoSoftware.Assignment.Domain.Portfolios.Portfolio">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAABAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Portfolios\Portfolio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamoSoftware.Assignment.Domain.Portfolios.PortfolioItem">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAACAAAgAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Portfolios\PortfolioItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamoSoftware.Assignment.Domain.Portfolios.PortfolioItemSimple" Collapsed="true">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAABACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Portfolios\PortfolioItemSimple.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamoSoftware.Assignment.Domain.Portfolios.PortfolioService" Collapsed="true">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABAAAACAACAAQAAAAAACAAAAAAAABAAAAAIAA=</HashCode>
+      <FileName>Portfolios\PortfolioService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamoSoftware.Assignment.Domain.Portfolios.Parsers.FileParser.PortfolioItemsFileParser" Collapsed="true">
+    <Position X="9" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Portfolios\Parsers\FileParser\PortfolioItemsFileParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamoSoftware.Assignment.Domain.Cryptocurrency.CoinLoreCryptocurrency.CoinLoreCryptocurrencyTracker" Collapsed="true">
+    <Position X="11.75" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAgAAAgAAAAIEADAAgAAAAAiAAAAACA=</HashCode>
+      <FileName>Cryptocurrency\CoinLoreCryptocurrency\CoinLoreCryptocurrencyTracker .cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamoSoftware.Assignment.Domain.Portfolios.Builders.PortfolioBuilder" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAACAAAAAAgAAAAAAAAAAAAgAACAA=</HashCode>
+      <FileName>Portfolios\Builders\PortfolioBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamoSoftware.Assignment.Domain.Portfolios.Builders.PortfolioItemBuilder" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQAAAAAAgAAAAAAgAAAIAACAIAAAAA=</HashCode>
+      <FileName>Portfolios\Builders\PortfolioItemBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DynamoSoftware.Assignment.Domain.IPortfolio">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAABAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>IPortfolio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Interface>
+  <Interface Name="DynamoSoftware.Assignment.Domain.IPortfolioItem" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAACAAAgAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPortfolioItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DynamoSoftware.Assignment.Domain.IPortfolioItemSimple" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAABACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPortfolioItemSimple.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DynamoSoftware.Assignment.Domain.IPortfolioService">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>IPortfolioService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DynamoSoftware.Assignment.Domain.Portfolios.Parsers.IPortfolioItemsFileParser" Collapsed="true">
+    <Position X="2.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Portfolios\Parsers\IPortfolioItemsFileParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DynamoSoftware.Assignment.Domain.Cryptocurrency.ICryptocurrencyTracker" Collapsed="true">
+    <Position X="4.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cryptocurrency\ICryptocurrencyTracker .cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
