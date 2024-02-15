@@ -84,7 +84,7 @@ const PortfolioDashboardComponent: FC = () => {
 				<div>
 					<Typography variant="h6" noWrap>Welcome to Portfolio Checker!</Typography>
 					<Typography paragraph={true}>Start by choosing a portfolio file and uploading it.</Typography>
-					<FileUploadComponent uploadButtonName="Upload Portfolio" onUploadClicked={handleUpload}></FileUploadComponent>
+					<FileUploadComponent accept=".txt" uploadButtonName="Upload Portfolio" onUploadClicked={handleUpload}></FileUploadComponent>
 				</div>
 			}
 

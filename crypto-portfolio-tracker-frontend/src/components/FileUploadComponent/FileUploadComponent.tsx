@@ -3,6 +3,7 @@ import React, { FC, useState } from 'react';
 
 interface FileUploadComponentProps {
 	uploadButtonName?: string;
+	accept?: string
 	onUploadClicked: (file: File) => {};
 }
 
@@ -24,7 +25,7 @@ const FileUploadComponent: FC<FileUploadComponentProps> = (props) => {
 	return (
 		<div>
 			<div>
-				<input id="contained-button-file" type="file" style={{ display: "none" }} onChange={handleFileChange} />
+				<input id="contained-button-file" type="file" accept={props.accept} style={{ display: "none" }} onChange={handleFileChange} />
 				<label htmlFor="contained-button-file">
 					<Button variant="outlined" color="primary" component="span">Choose file</Button>
 				</label>
